@@ -50,7 +50,7 @@ class Server:
             return []
         return data[ind_start:ind_end]
 
-    def get_hyper(self, page: int = 1, page_size: int = 10) -> dict[list]:
+    def get_hyper(self, page: int = 1, page_size: int = 10) -> dict:
         """
         Retrieves information about a page
         """
